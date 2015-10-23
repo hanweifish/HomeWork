@@ -1,5 +1,5 @@
 body {
-    font-family: Verdana;
+	font-family: Verdana;
     max-width: 1024px;
     background-image: url('./image/page-mock.png');
     background-repeat: no-repeat;
@@ -53,7 +53,7 @@ p.text_main_feature_title {
 	margin-bottom: 13px;
 }
 
-.firt_feature {
+.text_main_feature_content:first-of-type {
 	margin-top: 35px;
 }
 
