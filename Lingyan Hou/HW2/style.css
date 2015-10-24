@@ -1,0 +1,64 @@
+i {
+  color: #0099FF;
+}
+
+.headercontainer {
+	display: flex;
+}
+.header {
+	/*font-family: Arial;*/
+	/*font-family: 'Roboto';*/
+	font-size: 16px;
+	flex:1;
+}
+
+.header h1,  h2 {
+	line-height: 12px;
+	padding-left: 20px;
+}
+
+p {
+	margin: 10px 0;
+}
+
+.body .fa-ul > li {
+	border-bottom-style: solid;
+	border-color: #C0C0C0;
+	border-width: 1px;
+	font-weight: bold;
+}
+ 
+.body .fa-ul .skill ul, .body .fa-ul .work1content ul {
+	list-style-type: disc;
+	padding-left: 16px;
+}
+
+.body .fa-ul .skillcontainer {
+	display: flex;
+	margin: 10px 0 10px 0;
+}
+
+.body .fa-ul .workcontainer{
+	display: flex;
+	margin: 10px 0 0 0;
+}
+
+.body .fa-ul .work1content li:nth-last-child(1) {
+	margin: 0px 0 10px 0;
+}
+
+
+.body .fa-ul .skill, .body .fa-ul .work1{
+	flex: 1;
+	width: 50%;
+}
+
+.body .fa-ul .work1 p {
+    margin: 2px 0;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.body .fa-ul .degree {
+	font-weight: bold;
+}
