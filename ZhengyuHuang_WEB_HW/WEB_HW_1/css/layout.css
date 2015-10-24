@@ -1,0 +1,218 @@
+
+@import url("font-awesome/css/font-awesome.min.css");
+
+.row {
+   width: 96%;
+   max-width: 1020px;
+   margin: 0 auto;
+}
+
+.row .row { 
+   width: auto; 
+   max-width: none; 
+   margin: 0 -20px; 
+ }
+
+ header a {
+    text-decoration: none;
+    color: red;
+ }
+
+ header a:hover {
+    text-decoration: none;
+    color: #11ABB0;
+ }
+
+ #resume a {
+    text-decoration: none;
+    color: red;
+ }
+
+ #resume a:hover {
+    text-decoration: none;
+    color: #11ABB0;
+ }
+
+/* ------------------------------------------------------------------ */
+/* a. General Styles
+/* ------------------------------------------------------------------ */
+
+body { background: #0f0f0f; }
+
+/* ------------------------------------------------------------------ */
+/* b. Header Styles
+/* ------------------------------------------------------------------ */
+
+header {
+   position: relative;
+   height: 200px;
+   width: 100%;
+   background: #000000;
+   text-align: center;
+   margin-top: 50px;
+   margin-bottom: 50px;
+   display: inline-block;
+}
+header h1 {
+   font: 90px sans-serif;
+   color: #fff;
+   letter-spacing: -2px;
+   margin: 0 auto 18px auto;
+}
+header h3 {
+   font: 20px sans-serif;
+   color: #fff;
+   letter-spacing: 2px;
+   margin: 0 auto 18px auto;
+}
+header .social {
+   margin: 24px 0;
+   padding: 0;
+   font-size: 30px;
+   text-shadow: 0px 1px 2px;
+}
+header .social li {
+   display: inline-block;
+   margin: 0 15px;
+   padding: 0;
+}
+header .social li a { color: red; font-size: 40px;}
+header .social li a:hover { color: #11ABB0;}
+
+/* ------------------------------------------------------------------ */
+/* c. About Section
+/* ------------------------------------------------------------------ */
+
+#about {
+   background: #fff;
+   padding-top: 40px;
+   padding-bottom: 50px;
+}
+#about h2 {
+   font: 22px sans-serif;
+   color: #000;
+   margin-left: 200px;
+   margin-bottom: 12px;
+}
+#about p {
+   line-height: 30px;
+   color: #000;
+   margin-left: 300px;
+}
+#about .profile-pic {
+   width: 200px;
+   height: 200px;
+   border-radius: 100%;
+   margin-left: 50px;
+}
+
+/* ------------------------------------------------------------------ */
+/* d. Resume Section
+/* ------------------------------------------------------------------ */
+
+#resume {
+   background: #fff;
+   padding-top: 20px;
+   padding-bottom: 72px;
+}
+#resume h1 {
+   font: 18px sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+}
+#resume h1 span {
+   border-bottom: 3px solid #11ABB0;
+   padding-bottom: 6px;
+}
+#resume h3 {
+   font: 25px sans-serif;
+}
+.education, .work {
+   margin-bottom: 48px;
+   padding-bottom: 24px;
+   border-bottom: 1px solid #E8E8E8;
+}
+#resume .info {
+   font: 16px serif;
+   color: #6E7881;
+   margin-bottom: 18px;
+   margin-top: 9px;
+}
+#resume .info span {
+   margin-right: 10px;
+   margin-left: 10px;
+}
+
+/*----------------------------------------------*/
+/*	Skill Bars
+/*----------------------------------------------*/
+
+.bars {
+	width: 90%;
+	float: left;
+}
+.bars .skills {
+   margin-top: 36px;
+   margin-left: -20px;
+   list-style: none;
+}
+.bars li {
+   position: relative;
+   margin-bottom: 60px;
+   background: #ccc;
+   height: 42px;
+   border-radius: 3px;
+}
+.bars li em {
+	font: 15px sans-serif;
+  color: #313131;
+	text-transform: uppercase;
+  letter-spacing: 2px;
+	font-weight: normal;
+  position: relative;
+	top: -36px;
+}
+.bar-expand {
+   position: absolute;
+   left: 0;
+   top: 0;
+   margin: 0;
+   padding-right: 24px;
+   background: #313131;
+   display: inline-block;
+   height: 42px;
+   line-height: 42px;
+   border-radius: 3px 0 0 3px;
+}
+.css {
+  	width: 70%;
+}
+.html5 {
+  	width: 90%;
+}
+
+/* ------------------------------------------------------------------ */
+/* e. Portfolio Section
+/* ------------------------------------------------------------------ */
+
+#portfolio {
+   background: #000;
+   padding-top: 40px;
+   padding-bottom: 40px;
+}
+#portfolio h1 {
+   font: 15px sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   text-align: center;
+   margin-bottom: 48px;
+   color: #FFF;
+}
+.portfolio-item .item-wrap {
+   background: #fff;
+}
+.portfolio-item .item-wrap img {
+   vertical-align: bottom;
+   width: 250px;
+   height: 150px;
+}
