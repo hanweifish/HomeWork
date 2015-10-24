@@ -1,0 +1,30 @@
+body {
+	font-family: Verdana;
+}
+.namePosition {
+	padding: 20px;
+}
+.contactInfo {
+	padding: 20px;
+}
+.download {
+	padding: 20px;
+}
+p.name {
+	font-size: 28px;
+	font-weight: bold;
+}
+p.position {
+	font-size: 18px;
+}
+.infoContainer {
+	display: flex;
+	justify-content: flex-start;
+}
+.download {
+	text-align: center;
+}
+.skillContainer {
+	display: flex;
+	justify-content: flex-start;
+}
