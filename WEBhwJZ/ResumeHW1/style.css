@@ -1,0 +1,81 @@
+/* Styles go here */
+.exp{
+    
+        clear:both;
+}
+
+
+.hr
+{
+	border-top: 3px;
+	width: 70%;
+	
+	margin-right: 20%;
+}
+
+.contact
+{
+  	
+  	line-height: 50%;
+	width: 50%;
+	float: right;
+	font-size: 16px;
+	margin: 0px;
+	padding: 0px;
+	 
+	
+}
+.info
+{
+	line-height: 80%;
+	width: 50%;
+	float: left;
+	font-size: 16px;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+.skill_left
+{
+
+	width: 50%;
+	float: left;
+	font-size: 16px;
+	margin: 0px;
+	padding: 0px;
+}
+
+.skill_right
+{	
+
+	width: 50%;
+	float: right;
+	font-size: 16px;
+	margin: 0px;
+	padding: 0px;
+}
+
+.section_title
+{
+	
+	padding-top:10px;
+ 	padding-bottom: 0;
+}
+.education_list
+{
+	list-style: none;
+	padding-top: 25px;
+	padding-left: 0;
+}
+.sh_img
+{
+        margin-top: -90px;
+        margin-right: 35%;
+} 
+
+body{
+	padding-left: 20%;
+	padding-right: 20%;
+	font-family: Arial, Helvetica, sans-serif;
+}
