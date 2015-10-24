@@ -1,7 +1,7 @@
 /* Styles go here */
 .exp{
     
-    clear:both;
+        clear:both;
 }
 
 
@@ -70,14 +70,10 @@
 }
 .sh_img
 {
-   margin-top: -90px;
-   margin-right: 35%;
-}
-.detail
-{
-	
+        margin-top: -90px;
+        margin-right: 35%;
+} 
 
-}
 body{
 	padding-left: 20%;
 	padding-right: 20%;
