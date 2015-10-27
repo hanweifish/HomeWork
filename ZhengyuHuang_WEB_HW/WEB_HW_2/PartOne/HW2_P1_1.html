@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <script src="script.js"></script>
+    <script src="script2.js"></script>
+  </head>
+
+  <body>
+    <!-- Below is first script, comment it when run second Racer testcase. And ALL output will be displayed in console. -->
+    <script>
+      var sw = new StopWatch();
+      sw.start();
+      setTimeout("sw.log()", 200);
+      setTimeout("sw.stop().log()", 300);
+      setTimeout("sw.log()", 1000);
+      setTimeout("sw.reset().log()", 1100);
+    </script>
+    <!-- Below is second script, comment it when run first StopWatch testcase. And ALL output will be displayed in console. -->
+    <!--<script>
+      sumeet = new Racer();
+      travis = new Racer();
+      harshit = new Racer();
+      console.log(Racer.all[0] === sumeet);
+      console.log(Racer.all[1] === travis);
+      console.log(Racer.all[2] === harshit);
+      Racer.all.start();
+      setTimeout("sumeet.stop().log()", 0);
+      setTimeout("harshit.stop().log()", 1000);
+      setTimeout("travis.stop().log()", 2000);
+      setTimeout("console.log(Racer.getWinner() === travis)", 2100);
+    </script>-->
+  </body>
+
+</html>
