@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="styleP3.css"/>
+  <script src="ScriptP3.js"></script>
+  <script src="data2.jsonp"></script>
+  <title>Lego Clicker</title>
+</head>
+
+<body>
+  <h1>Lego Clicker</h1>
+  <ul id="lego-list">
+    <script> 
+      genLeftMenu();
+    </script>
+  </ul>
+  <div id="lego">
+    <h2 id="lego-name">Grand Carousel</h2>
+    <p>
+      Counter: 
+      <span id="lego-count">0</span>
+    </p>
+    <a id="right-img" onclick="addClick()"><img id="lego-img" src="img/Creator-Carousel-10196-2.jpg" alt="Lego"></a>
+  </div>
+  <!-- <button onclick="showClick()">ShowClick</button> -->
+</body>
+
+</html>
