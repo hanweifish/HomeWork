@@ -1,0 +1,24 @@
+body {
+  text-align: center;
+}
+h1 {
+  text-align: center;
+}
+.start, .reset {
+  display: inline-block;
+  width: 90px;
+  height : 40px;
+  margin-top: 20px;
+}
+#ss, #rs {
+  width: 90px;
+  height: 40px;
+  font-size: 20px;
+}
+#time {
+  width: 400px;
+  height: 100px;
+  margin: auto;
+  color: inherit;
+  font-size: 100px;
+}

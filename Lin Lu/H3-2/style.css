@@ -1,0 +1,19 @@
+#unit, #time {
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  font-size: 50px;
+
+}
+
+.chart {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 5px;
+  font-size: 15px;
+}
