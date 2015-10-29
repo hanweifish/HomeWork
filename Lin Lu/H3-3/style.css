@@ -1,0 +1,41 @@
+body {
+  margin: auto;
+  width: 1000px;
+}
+h1 {
+  text-align: center;
+  padding: 40px;
+  font-size: 36px;
+}
+button {
+  font-size: 20px;
+  font-weight: bold;
+  background-color: white;
+  border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    padding: 10px;
+    width:200px;
+    text-align: left;
+}
+.fir, .sec, .thi, .fou, .fif, .six {
+  padding: 5px;
+}
+img {
+  width: 600px;
+  height: 545px;
+
+}
+.legolist {
+  float: left;
+}
+.lego {
+  float: right;
+}
+.name {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.count {
+  font-size: 20px;
+}
