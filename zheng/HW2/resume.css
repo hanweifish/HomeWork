@@ -1,5 +1,9 @@
 body {
-	font-family: Verdana;
+	font-family: Calibri;
+}
+.resumeContainer {
+	margin: 20px auto;
+	width: 800px;
 }
 .namePosition {
 	padding: 20px;
@@ -19,12 +23,12 @@ p.position {
 }
 .infoContainer {
 	display: flex;
-	justify-content: flex-start;
+	justify-content: space-between;
 }
 .download {
 	text-align: center;
 }
 .skillContainer {
 	display: flex;
-	justify-content: flex-start;
+	justify-content: space-between;
 }
