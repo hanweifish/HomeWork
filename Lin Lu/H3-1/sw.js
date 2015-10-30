@@ -32,7 +32,7 @@ function increment() {
       var min = Math.floor(time / 100 / 60);
       var sec = Math.floor(time / 100 % 60);
       var hundredth = time % 100;
-      millisec += Math.floor(time/10);
+      millisec += Math.floor(time*10);
       if (min < 10) {
         min = '0' + min;
       }
@@ -49,11 +49,11 @@ function increment() {
 }
 
 //racer
-function Racer(){
-  this.all = function(){
-  
-  };
-}
+// function Racer(){
+//   this. = function(){
+//
+//   };
+// }
 
 //诶 要求没看清。。。但是删了可惜
 // $('#ss').click(function() {
