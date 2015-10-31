@@ -32,7 +32,7 @@ StopWatch.prototype.log = function() {
 		this.startTime = curTime;
 	}
 	console.log(this.duration);
-	return this;
+	// return this;
 };
 
 // var sw = new StopWatch();
@@ -54,7 +54,7 @@ StopWatch.prototype.log = function() {
 // StopWatch.prototype.start = function() {
 // 	if(!this.started) {
 // 		this.started = true;
-// 		this.interval = setInterval(this.increment, 1);
+// 		this.interval = setInterval(this.increment.bind(this), 1);
 // 		return this;
 // 	}
 // };
