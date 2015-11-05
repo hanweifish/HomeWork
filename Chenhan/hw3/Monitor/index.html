@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="monitorApp">
+<head>
+	<title>Monitor</title>
+	<link rel="stylesheet" href="css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
+	<script src="js/script.js"></script>
+</head>
+<body ng-controller="MachineListCtrl" >
+	<h1>VM Monitor</h1>
+	<div ng-repeat="machine in machines" class="machine">
+		<my-machine></my-machine>
+		<!-- <a>{{machine.name}}</a>
+		<div>CurrentUsage : <span>{{machine.usage}}</span></div>
+		<div>MinUsage : <span>{{machine.min}}</span> MaxUsage : <span>{{machine.max}}</span></div> -->
+	</div>
+</body>
+</html>

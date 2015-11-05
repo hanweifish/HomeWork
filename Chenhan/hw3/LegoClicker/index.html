@@ -1,0 +1,20 @@
+<!doctype <!DOCTYPE html>
+<html lang="en" ng-app="LegoClicker">
+<head>
+	<title>Lego Clicker</title>
+	<link rel="stylesheet" href="css/style.css"/>
+	<script data-require="angular.js@1.4.7" data-semver="1.4.7" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.js"></script>
+	 <script src="js/controllers.js"></script>
+</head>
+<body ng-controller="LegoClickerCtrl">
+	<h1>Lego Clicker (Image Click Counter)</h1>
+	<ul class="legolist">
+		<li ng-repeat="lego in legos.legos" ng-click="listClicked(lego)">{{lego.name}}</li>
+	</ul>
+	<div id="lego">
+        <h2>{{legos.currentLego.name}}</h2>
+        <p>Counter: <span>{{legos.currentLego.clickCount}}</span></p>
+        <img ng-src={{legos.currentLego.imgSrc}} ng-click="imgClicked(legos.currentLego)">
+    </div>
+</body>
+</html>
