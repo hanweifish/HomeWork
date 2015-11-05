@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html leng="en" ng-app="VMReaderApp">
+  <head>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
+    <script src="controller.js"></script>
+    <meta charset="utf-8">
+    <title>VM Reader</title>
+  </head>
+  <body ng-controller="readerCtrl">
+    <div class="card">
+      <ul>
+        <li ng-repeat = "name in names">
+          <span>{{name.name + ',  '+'id:' + name.id }}</span>
+          <span>{{'Usage:  '+ usage}}</span>
+        </li>
+      </ul>
+
+    </div>
+  </body>
+</html>
