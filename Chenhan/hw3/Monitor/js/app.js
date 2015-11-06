@@ -1,0 +1,1 @@
+angular.module('monitorApp',['appControllers', 'appDirectives']);

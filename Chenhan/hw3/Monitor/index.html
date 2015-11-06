@@ -4,15 +4,14 @@
 	<title>Monitor</title>
 	<link rel="stylesheet" href="css/style.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
-	<script src="js/script.js"></script>
+	<script src="js/app.js"></script>
+	<script src="js/controllers.js"></script>
+	<script src="js/directives.js"></script>
 </head>
-<body ng-controller="MachineListCtrl" >
+<body ng-controller="MachineListCtrl">
 	<h1>VM Monitor</h1>
 	<div ng-repeat="machine in machines" class="machine">
-		<my-machine></my-machine>
-		<!-- <a>{{machine.name}}</a>
-		<div>CurrentUsage : <span>{{machine.usage}}</span></div>
-		<div>MinUsage : <span>{{machine.min}}</span> MaxUsage : <span>{{machine.max}}</span></div> -->
+		<my-machine id='machine.id' name='machine.name'></my-machine>
 	</div>
 </body>
 </html>
