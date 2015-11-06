@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="legoApp">
+
+<head>
+  <meta charset="utf-8">
+  <title>Lego Clicker</title>
+  <link rel="stylesheet" href="styleP3.css"/>
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="ScriptH3.js"></script>
+</head>
+
+<body ng-controller="LeftListCtrl">
+  <h1>Lego Clicker</h1>
+  <ul id="lego-list">
+    <li ng-repeat="obj in objs" ng-click="setImage(obj.imgSrc)">
+      {{obj.name}}
+    </li>
+  </ul>
+  <div id="lego">
+    <h2 id="lego-name">Grand Carousel</h2>
+    <p>
+      Counter: 
+      <span id="lego-count">0</span>
+    </p>
+    <img id="lego-img" src="img/Creator-Carousel-10196-2.jpg" ng-src="{{imgSrc}}" ng-click="setCount()" alt="Lego">
+  </div>
+</body>
+
+</html>
