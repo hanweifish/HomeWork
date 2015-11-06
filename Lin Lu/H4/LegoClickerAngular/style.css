@@ -1,0 +1,43 @@
+ul {
+  list-style-type: none;
+  float: left;
+}
+body {
+  margin: auto;
+  width: 1000px;
+}
+h1 {
+  text-align: center;
+  padding: 40px;
+  font-size: 36px;
+  margin-bottom: 0;
+}
+li {
+  font-size: 20px;
+  font-weight: bold;
+  background-color: white;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  padding: 10px;
+  width: 200px;
+  text-align: left;
+  margin: 5px;
+}
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+img {
+  width: 600px;
+  height: 545px;
+
+}
+.lego {
+  float: right;
+}
+p {
+  font-size: 18px;
+  margin-bottom: 0;
+
+}

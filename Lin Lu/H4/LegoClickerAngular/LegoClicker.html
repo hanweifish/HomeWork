@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html leng="en" ng-app="legoclickerApp">
+  <head>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
+    <meta charset="utf-8">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+    <script src="controller.js"></script>
+
+    <title>Lego Clicker</title>
+  </head>
+  <h1>Lego Clicker</h1>
+  <body ng-controller="LegoListCtrl">
+    <ul>
+      <li ng-repeat="lego in legoes" ng-click="updateLego(lego)">
+        <span>{{lego.name}}</span>
+      </li>
+    </ul>
+    <div class="lego">
+      <h2 ng-bind="currentLego.name"></h2>
+          <p>
+            Counter: <span ng-bind="currentLego.clickCount"></span>
+          </p>
+          <img id="img" ng-src="{{currentLego.imgSrc}}" alt="pic not avaliable" ng-click="counter()"/>
+      </div>
+
+  </body>
+</html>
