@@ -1,0 +1,45 @@
+body {
+	width: 1140px;
+	margin: 100px auto;
+
+}
+h1 {
+	text-align: center;
+}
+
+.content {
+	float: right;
+	width: 50%;
+	text-align: center;
+}
+
+img {
+	width: 80%;
+	height: 80%;
+	cursor: pointer;
+}
+
+ul {
+	list-style: none;
+	float: left;
+	text-align: center;
+}
+
+li {
+	padding: 10px;
+	font-size: 20px;
+    font-weight: bold;
+    border: 2px solid;
+    margin: 5px;
+}
+
+li:hover {
+	color: lightgrey;
+	cursor: pointer;
+}
+
+.name, .counter {
+	padding: 10px;
+	font-size: 20px;
+    font-weight: bold;
+}

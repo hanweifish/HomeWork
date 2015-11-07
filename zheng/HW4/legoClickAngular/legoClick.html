@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html ng-app = "legoClickApp">
+	<head>
+		<link rel="stylesheet" href="css/app.css">
+		<script data-require="jquery@2.1.4" data-semver="2.1.4" src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
+		<script src="js/controllers.js"></script>
+	</head>
+	<body ng-controller = "legoClickControl">
+		<div class="header"><h1>Lego Clicker</h1></div>
+		<div class="container">
+			<ul class="list">
+				<li ng-repeat = "lego in legos" ng-click="setCurrentLego(lego)">{{lego.name}}</li>
+			</ul>
+			<div class="content">
+				<div class="name">{{currentLego.name}}</div>
+				<div class="counter">Counter: {{currentLego.clickCount}}</div>
+				<img ng-src="{{currentLego.imgSrc}}" ng-click="increment(currentLego)">
+			</div>
+		</div>
+		
+	</body>
+</html>
