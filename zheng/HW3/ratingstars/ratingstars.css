@@ -1,0 +1,12 @@
+.fill {
+	color: red;
+}
+
+li {
+	display: inline;
+	cursor: pointer;
+}
+
+div {
+	text-align: center;
+}
