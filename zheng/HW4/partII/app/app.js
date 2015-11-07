@@ -5,3 +5,5 @@ angular.module('cpuUsage', [
 		'getUsage'
 	]
 );
+angular.module('getMechines',[]);
+angular.module('getUsage', []);

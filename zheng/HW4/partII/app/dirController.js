@@ -1,6 +1,6 @@
 "use strict"
 
-var usage = angular.module('getUsage',[])
+var usage = angular.module('getUsage')
 usage.controller('dirCtrl', ['$scope', '$http', '$interval', function($scope, $http, $interval){
 	$scope.max = 0;
 	$scope.min = 100;
