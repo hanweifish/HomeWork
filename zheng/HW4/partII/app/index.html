@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html lang="en" ng-app="cpuUsage">
 <head>
-  	<link rel="stylesheet" href="css/style.css">
+  	<link rel="stylesheet" href="style.css">
 	<script data-require="jquery@2.1.4" data-semver="2.1.4" src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
-  	<script src="js/dirController.js"></script>
-  	<script src="js/controllers.js"></script>
+	<script src="app.js"></script>
+	<script src="controllers.js"></script>
+  	<script src="dirController.js"></script>
+  	<script src="myDirective.js"></script>
+  	
+  	
 </head>
-<body ng-controller = "usageCtrl">
+<body ng-controller = "MechinesCtrl">
 
   <div class="container" ng-repeat="vm in vmechines">
   	<my-dir info="vm"></my-dir>
